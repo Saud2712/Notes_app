@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
+// note الشكل الخارجي لل
 class NoteItem extends StatelessWidget {
   const NoteItem({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(top: 24, bottom: 24, right: 10, left: 16),
+      padding: const EdgeInsets.only(top: 20, bottom: 20, right: 10, left: 14),
       decoration: BoxDecoration(
         color: Colors.green[300],
         borderRadius: BorderRadius.circular(16),
@@ -31,7 +32,7 @@ class NoteItem extends StatelessWidget {
                   icon: const Icon(FontAwesomeIcons.trash,
                       size: 30, color: Colors.black))),
           Padding(
-            padding: const EdgeInsets.only(right: 24),
+            padding: const EdgeInsets.only(right: 20),
             child: Text(
               'May 21,2022',
               style:
