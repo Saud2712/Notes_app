@@ -8,7 +8,7 @@ class NoteItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.only(top: 20, bottom: 20, right: 10, left: 14),
+      padding: const EdgeInsets.only(top: 16, bottom: 18, right: 8, left: 10),
       decoration: BoxDecoration(
         color: Colors.green[300],
         borderRadius: BorderRadius.circular(16),
@@ -22,7 +22,7 @@ class NoteItem extends StatelessWidget {
                 style: TextStyle(fontSize: 26, color: Colors.black),
               ),
               subtitle: Padding(
-                padding: const EdgeInsets.only(top: 16, bottom: 16),
+                padding: const EdgeInsets.only(top: 12, bottom: 14),
                 child: Text('Build your Career with Saud Saad',
                     style: TextStyle(
                         fontSize: 18, color: Colors.black.withOpacity(.5))),
@@ -30,7 +30,7 @@ class NoteItem extends StatelessWidget {
               trailing: IconButton(
                   onPressed: () {},
                   icon: const Icon(FontAwesomeIcons.trash,
-                      size: 30, color: Colors.black))),
+                      size: 28, color: Colors.black))),
           Padding(
             padding: const EdgeInsets.only(right: 20),
             child: Text(

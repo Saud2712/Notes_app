@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'custom_note_item.dart';
 
+// ال class المسوول عن تكرار ال Notes
 class NotesListView extends StatelessWidget {
   const NotesListView({Key? key}) : super(key: key);
 
